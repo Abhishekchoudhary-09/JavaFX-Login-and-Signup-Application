@@ -22,7 +22,7 @@ MySQL Connector/J library
 Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/javafx-login-signup.git
+git clone https://github.com/abhishekchoudhary/javafx-login-signup.git
 
 2. Import the project into your favorite IDE (e.g., IntelliJ IDEA, Eclipse).
 
