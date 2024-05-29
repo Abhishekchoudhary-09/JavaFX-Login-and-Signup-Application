@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="672.0" style="-fx-background-color: #1c57ef;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Pane layoutY="2.0" prefHeight="450.0" prefWidth="351.0" style="-fx-background-color: #1c57ef;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="350.0" AnchorPane.topAnchor="2.0">
+         <children>
+            <TextField fx:id="txtname" layoutX="65.0" layoutY="97.0" prefHeight="39.0" prefWidth="223.0" promptText="Username">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="txtpassword" layoutX="65.0" layoutY="160.0" prefHeight="39.0" prefWidth="223.0" promptText="Password">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </PasswordField>
+            <Button layoutX="134.0" layoutY="221.0" mnemonicParsing="false" onAction="#Login" prefHeight="39.0" prefWidth="85.0" text="Login">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="133.0" layoutY="349.0" mnemonicParsing="false" onAction="#SignUp" text="Sign Up">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="65.0" layoutY="289.0" prefHeight="39.0" prefWidth="223.0" style="-fx-background-color: #1eff00;" text=" Create New Account" textAlignment="CENTER" textFill="#1c58ed" wrapText="true">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="warning" layoutX="65.0" layoutY="35.0" prefHeight="39.0" prefWidth="223.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </Pane>
+      <StackPane layoutX="329.0" prefHeight="450.0" prefWidth="344.0">
+         <ImageView fitHeight="455.0" fitWidth="344.0" pickOnBounds="true" preserveRatio="true">
+         
+         </ImageView>
+        </StackPane>
+         </children>
+</AnchorPane>
